@@ -1,0 +1,21 @@
+2019-07-24 18:06:01,749 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/login
+2019-07-24 18:06:01,750 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004CEB588>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-24 18:06:16,779 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/login
+2019-07-24 18:06:16,780 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004CFB470>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-25 11:57:04,931 - tools.log_tool - ERROR - RequestException url: http://yansl.com.com:8080/admin/register
+2019-07-25 11:57:04,958 - tools.log_tool - ERROR - ('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+2019-07-25 12:01:36,110 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is feaegrgv, body is {'id': 92, 'username': 'feaegrgv', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'icon': 'string', 'email': '985092749@qq.com', 'nickName': 'string', 'note': 'string', 'createTime': 1564027214056, 'loginTime': None, 'status': 1}
+2019-07-25 13:56:10,225 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/register
+2019-07-25 13:56:10,253 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004F10EB8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-25 13:56:27,262 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/register
+2019-07-25 13:56:27,262 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004F12CF8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-25 13:57:13,323 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/register
+2019-07-25 13:57:13,324 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004F50E10>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-25 13:57:36,105 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/register
+2019-07-25 13:57:36,106 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004F50E48>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-25 13:58:57,688 - tools.log_tool - ERROR - RequestException url: http://qa.yansl.com:8080/admin/register
+2019-07-25 13:58:57,689 - tools.log_tool - ERROR - HTTPConnectionPool(host='qa.yansl.com', port=8080): Max retries exceeded with url: /admin/register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004F10E10>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+2019-07-25 15:50:58,034 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is 200, body is 400
+2019-07-25 15:52:41,954 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is 200, body is 400
+2019-07-25 15:53:50,187 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is 200, body is 400
+2019-07-25 15:54:06,713 - tools.log_tool - ERROR - Response body != expected_msg, expected_msg is 200, body is 400

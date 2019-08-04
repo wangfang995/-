@@ -1,0 +1,141 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "后台用户管理流程",
+    "children" : [ {
+      "name" : "注册新用户",
+      "children" : [ {
+        "name" : "test_user_admin_register_1",
+        "uid" : "a9a7e6c508f946b6",
+        "parentUid" : "81ca3d93ed2db2b03cdc21deaf239c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564133439855,
+          "stop" : 1564133439969,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81ca3d93ed2db2b03cdc21deaf239c97"
+    }, {
+      "name" : "给用户分配角色 1,商品管理员。 2，商品分类管理员。 3，商品类型管理员。 4，品牌管理员 ",
+      "children" : [ {
+        "name" : "test_user_admin_role_update",
+        "uid" : "9472183c2271b659",
+        "parentUid" : "27dc748c9c4f410110723964d68b1761",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564133439974,
+          "stop" : 1564133440090,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27dc748c9c4f410110723964d68b1761"
+    }, {
+      "name" : "查询用户角色",
+      "children" : [ {
+        "name" : "test_user_admin_pwd",
+        "uid" : "f3fff645baf0c1b5",
+        "parentUid" : "1b1278901bd4e4b2ff017217ce87b6c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564133440095,
+          "stop" : 1564133440192,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b1278901bd4e4b2ff017217ce87b6c7"
+    }, {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "test_user_admin_login",
+        "uid" : "7b0cca4a35d069e2",
+        "parentUid" : "17032c9e1aa815ac4b7965b42e855ca5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564133440197,
+          "stop" : 1564133440333,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17032c9e1aa815ac4b7965b42e855ca5"
+    }, {
+      "name" : "获取当前登录用户信息",
+      "children" : [ {
+        "name" : "test_info",
+        "uid" : "da3aec3ee8d0f6d5",
+        "parentUid" : "62d74fa6ad6836b6c09b648a56726f03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564133440339,
+          "stop" : 1564133440448,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62d74fa6ad6836b6c09b648a56726f03"
+    }, {
+      "name" : "删除指定用户信息",
+      "children" : [ {
+        "name" : "test_delete",
+        "uid" : "ac05a04b49d09768",
+        "parentUid" : "7011d750415d59485e0476644eaeca53",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564133440453,
+          "stop" : 1564133440549,
+          "duration" : 96
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7011d750415d59485e0476644eaeca53"
+    } ],
+    "uid" : "70ef9c68d60967fd5949ef5ef163480b"
+  }, {
+    "name" : "添加商品流程",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "test_logen",
+        "uid" : "62ecdf6e28e9bfaf",
+        "parentUid" : "6f00806594ac1823e8fa1b0cac693abe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564627848937,
+          "stop" : 1564627862578,
+          "duration" : 13641
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f00806594ac1823e8fa1b0cac693abe"
+    }, {
+      "name" : "添加商品信息",
+      "children" : [ {
+        "name" : "test_add",
+        "uid" : "372c923cded7e17b",
+        "parentUid" : "95fb96e4fba9d322565a56d2d2323b75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564627862582,
+          "stop" : 1564627883728,
+          "duration" : 21146
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95fb96e4fba9d322565a56d2d2323b75"
+    } ],
+    "uid" : "80ce0cacdcd3f50855aa26eb08e82d41"
+  } ]
+}

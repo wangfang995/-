@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: assert_equal() missing 1 required positional argument: 'expected_msg'",
+      "children" : [ {
+        "name" : "test_delete",
+        "uid" : "ac05a04b49d09768",
+        "parentUid" : "ccac28207766c2e6db8eb2984e1b7d0e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564133440453,
+          "stop" : 1564133440549,
+          "duration" : 96
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccac28207766c2e6db8eb2984e1b7d0e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

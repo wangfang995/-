@@ -1,0 +1,323 @@
+{
+  "uid" : "372c923cded7e17b",
+  "name" : "test_add",
+  "fullName" : "test_case.ui.mall.test_mall_add_product#test_add",
+  "historyId" : "63bfd011140764096a7b28bc1a73c087",
+  "time" : {
+    "start" : 1564627862582,
+    "stop" : 1564627883728,
+    "duration" : 21146
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564627844266,
+      "stop" : 1564627848926,
+      "duration" : 4660
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "238e9a24c4065605",
+      "name" : "点击商品之前",
+      "source" : "238e9a24c4065605.png",
+      "type" : "image/png",
+      "size" : 58821
+    }, {
+      "uid" : "487f0ca3ef954a29",
+      "name" : "点击商品之后",
+      "source" : "487f0ca3ef954a29.png",
+      "type" : "image/png",
+      "size" : 65163
+    }, {
+      "uid" : "eaeabc0155ffe040",
+      "name" : "点击添加商品之前",
+      "source" : "eaeabc0155ffe040.png",
+      "type" : "image/png",
+      "size" : 65163
+    }, {
+      "uid" : "5ecac73044cdb060",
+      "name" : "点击添加商品之后",
+      "source" : "5ecac73044cdb060.png",
+      "type" : "image/png",
+      "size" : 70678
+    }, {
+      "uid" : "38b6e39e0a9e65bf",
+      "name" : "点击商品分类之前",
+      "source" : "38b6e39e0a9e65bf.png",
+      "type" : "image/png",
+      "size" : 45163
+    }, {
+      "uid" : "e19809f6f0614310",
+      "name" : "点击商品分类之后",
+      "source" : "e19809f6f0614310.png",
+      "type" : "image/png",
+      "size" : 54007
+    }, {
+      "uid" : "9c446f24009e4da7",
+      "name" : "点击服装之前",
+      "source" : "9c446f24009e4da7.png",
+      "type" : "image/png",
+      "size" : 48979
+    }, {
+      "uid" : "a5113695e79bc4a3",
+      "name" : "点击服装之后",
+      "source" : "a5113695e79bc4a3.png",
+      "type" : "image/png",
+      "size" : 51530
+    }, {
+      "uid" : "63507d5a76f766b9",
+      "name" : "点击外套之前",
+      "source" : "63507d5a76f766b9.png",
+      "type" : "image/png",
+      "size" : 51530
+    }, {
+      "uid" : "91de8e4d719b5a8c",
+      "name" : "点击外套之后",
+      "source" : "91de8e4d719b5a8c.png",
+      "type" : "image/png",
+      "size" : 46148
+    }, {
+      "uid" : "7cae536853fc2132",
+      "name" : "添加商品名称之前",
+      "source" : "7cae536853fc2132.png",
+      "type" : "image/png",
+      "size" : 45113
+    }, {
+      "uid" : "d10c7685dbcf6988",
+      "name" : "添加商品名称之后",
+      "source" : "d10c7685dbcf6988.png",
+      "type" : "image/png",
+      "size" : 45704
+    }, {
+      "uid" : "ebfbedb02b5175bd",
+      "name" : "添加副标题之前",
+      "source" : "ebfbedb02b5175bd.png",
+      "type" : "image/png",
+      "size" : 45676
+    }, {
+      "uid" : "e5122707f40cef2d",
+      "name" : "添加副标题之后",
+      "source" : "e5122707f40cef2d.png",
+      "type" : "image/png",
+      "size" : 46748
+    }, {
+      "uid" : "b0355517135b57cc",
+      "name" : "点击选择品牌之前",
+      "source" : "b0355517135b57cc.png",
+      "type" : "image/png",
+      "size" : 46707
+    }, {
+      "uid" : "48916bb9b4b65ab3",
+      "name" : "点击选择品牌之后",
+      "source" : "48916bb9b4b65ab3.png",
+      "type" : "image/png",
+      "size" : 54175
+    }, {
+      "uid" : "bfa2fd71b3c835dc",
+      "name" : "点击小米之前",
+      "source" : "bfa2fd71b3c835dc.png",
+      "type" : "image/png",
+      "size" : 50251
+    }, {
+      "uid" : "acbda6d9f223be2d",
+      "name" : "点击小米之后",
+      "source" : "acbda6d9f223be2d.png",
+      "type" : "image/png",
+      "size" : 46530
+    }, {
+      "uid" : "61fa39618531188f",
+      "name" : "请输入内容之前",
+      "source" : "61fa39618531188f.png",
+      "type" : "image/png",
+      "size" : 45989
+    }, {
+      "uid" : "18b4fd0cb627291a",
+      "name" : "请输入内容之后",
+      "source" : "18b4fd0cb627291a.png",
+      "type" : "image/png",
+      "size" : 45405
+    }, {
+      "uid" : "d1939ee3d19f52dc",
+      "name" : "点击下一步，填写商品促销之前",
+      "source" : "d1939ee3d19f52dc.png",
+      "type" : "image/png",
+      "size" : 45381
+    }, {
+      "uid" : "50327b0a46c38ab9",
+      "name" : "点击下一步，填写商品促销之后",
+      "source" : "50327b0a46c38ab9.png",
+      "type" : "image/png",
+      "size" : 50775
+    }, {
+      "uid" : "a1974e5aee46087e",
+      "name" : "点击下一步，填写商品属性之前",
+      "source" : "a1974e5aee46087e.png",
+      "type" : "image/png",
+      "size" : 50775
+    }, {
+      "uid" : "f9e5b033c2f82640",
+      "name" : "点击下一步，填写商品属性之后",
+      "source" : "f9e5b033c2f82640.png",
+      "type" : "image/png",
+      "size" : 48666
+    }, {
+      "uid" : "e4cb95026c537b21",
+      "name" : "点击下一步，选择商品关联之前",
+      "source" : "e4cb95026c537b21.png",
+      "type" : "image/png",
+      "size" : 48666
+    }, {
+      "uid" : "88c9995a807a9d8f",
+      "name" : "点击下一步，选择商品关联之后",
+      "source" : "88c9995a807a9d8f.png",
+      "type" : "image/png",
+      "size" : 60028
+    }, {
+      "uid" : "b0f608eba506fb81",
+      "name" : "点击下一步，填写商品关联之前",
+      "source" : "b0f608eba506fb81.png",
+      "type" : "image/png",
+      "size" : 60028
+    }, {
+      "uid" : "c0c93ebab56bc3bc",
+      "name" : "点击下一步，填写商品关联之后",
+      "source" : "c0c93ebab56bc3bc.png",
+      "type" : "image/png",
+      "size" : 61338
+    }, {
+      "uid" : "fd1a2ed3cdcd80c",
+      "name" : "点击确定之前",
+      "source" : "fd1a2ed3cdcd80c.png",
+      "type" : "image/png",
+      "size" : 56054
+    }, {
+      "uid" : "b5af09cd5dc27937",
+      "name" : "点击确定之后",
+      "source" : "b5af09cd5dc27937.png",
+      "type" : "image/png",
+      "size" : 67931
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 30,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564627883728,
+      "stop" : 1564627887665,
+      "duration" : 3937
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "story",
+    "value" : "添加商品信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.mall"
+  }, {
+    "name" : "suite",
+    "value" : "test_mall_add_product"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190301RNT"
+  }, {
+    "name" : "thread",
+    "value" : "6652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.mall.test_mall_add_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d509a3c84f545da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564626461952,
+        "stop" : 1564626484634,
+        "duration" : 22682
+      }
+    }, {
+      "uid" : "91f8d2fa3847052e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564626273936,
+        "stop" : 1564626292695,
+        "duration" : 18759
+      }
+    }, {
+      "uid" : "5bf9b35ff4b7c863",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1564626047136,
+        "stop" : 1564626086604,
+        "duration" : 39468
+      }
+    }, {
+      "uid" : "6c5c9c358915692c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1564625969481,
+        "stop" : 1564626010063,
+        "duration" : 40582
+      }
+    }, {
+      "uid" : "d525ba8189c114d5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1564625603234,
+        "stop" : 1564625643227,
+        "duration" : 39993
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "372c923cded7e17b.json",
+  "parameterValues" : [ ]
+}

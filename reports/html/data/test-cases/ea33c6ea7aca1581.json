@@ -1,0 +1,185 @@
+{
+  "uid" : "ea33c6ea7aca1581",
+  "name" : "test_logen",
+  "fullName" : "test_case.ui.mall.test_mall_add_product#test_logen",
+  "historyId" : "376af9208e19c92f45b8b0b0869a6cf8",
+  "time" : {
+    "start" : 1564626264400,
+    "stop" : 1564626273933,
+    "duration" : 9533
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564626260057,
+      "stop" : 1564626264352,
+      "duration" : 4295
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录断言，实际结果True，预期结果True",
+      "time" : {
+        "start" : 1564626273933,
+        "stop" : 1564626273933,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "21c937fc5c33b8fc",
+      "name" : "打开登录界面之前",
+      "source" : "21c937fc5c33b8fc.png",
+      "type" : "image/png",
+      "size" : 6436
+    }, {
+      "uid" : "efc747c266cc7a63",
+      "name" : "打开登录界面之后",
+      "source" : "efc747c266cc7a63.png",
+      "type" : "image/png",
+      "size" : 37099
+    }, {
+      "uid" : "cbb65410427f091f",
+      "name" : "输入用户名之前",
+      "source" : "cbb65410427f091f.png",
+      "type" : "image/png",
+      "size" : 37099
+    }, {
+      "uid" : "e6263905c2ea555c",
+      "name" : "输入用户名之后",
+      "source" : "e6263905c2ea555c.png",
+      "type" : "image/png",
+      "size" : 37068
+    }, {
+      "uid" : "9100968fda5e5874",
+      "name" : "输入密码之前",
+      "source" : "9100968fda5e5874.png",
+      "type" : "image/png",
+      "size" : 37040
+    }, {
+      "uid" : "21800aa9e42036fa",
+      "name" : "输入密码之后",
+      "source" : "21800aa9e42036fa.png",
+      "type" : "image/png",
+      "size" : 37071
+    }, {
+      "uid" : "fc0fab6b707aecbf",
+      "name" : "点击登录之前",
+      "source" : "fc0fab6b707aecbf.png",
+      "type" : "image/png",
+      "size" : 37118
+    }, {
+      "uid" : "6f7ce9ab3ae10b35",
+      "name" : "点击登录之后",
+      "source" : "6f7ce9ab3ae10b35.png",
+      "type" : "image/png",
+      "size" : 50560
+    }, {
+      "uid" : "24c736a438533683",
+      "name" : "点击残忍拒绝之前",
+      "source" : "24c736a438533683.png",
+      "type" : "image/png",
+      "size" : 39816
+    }, {
+      "uid" : "fcf24db070ceb17a",
+      "name" : "点击残忍拒绝之后",
+      "source" : "fcf24db070ceb17a.png",
+      "type" : "image/png",
+      "size" : 47002
+    }, {
+      "uid" : "8534965c5bacb52e",
+      "name" : "点击登录之前",
+      "source" : "8534965c5bacb52e.png",
+      "type" : "image/png",
+      "size" : 37147
+    }, {
+      "uid" : "a9220c1315d3cb9a",
+      "name" : "点击登录之后",
+      "source" : "a9220c1315d3cb9a.png",
+      "type" : "image/png",
+      "size" : 38087
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564626292696,
+      "stop" : 1564626296145,
+      "duration" : 3449
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.mall"
+  }, {
+    "name" : "suite",
+    "value" : "test_mall_add_product"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190301RNT"
+  }, {
+    "name" : "thread",
+    "value" : "3748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.mall.test_mall_add_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea33c6ea7aca1581.json",
+  "parameterValues" : [ ]
+}

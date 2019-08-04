@@ -1,0 +1,10 @@
+---------------请求-----------------
+http://qa.yansl.com:8080/admin/register
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 118
+Content-Type: application/json
+
+b'{"email": "985092749@qq.com", "icon": "", "nickName": "xuepl", "note": "", "password": "123456", "username": "wfRYpL"}'

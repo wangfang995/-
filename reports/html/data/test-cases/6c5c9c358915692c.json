@@ -1,0 +1,246 @@
+{
+  "uid" : "6c5c9c358915692c",
+  "name" : "test_add",
+  "fullName" : "test_case.ui.mall.test_mall_add_product#test_add",
+  "historyId" : "63bfd011140764096a7b28bc1a73c087",
+  "time" : {
+    "start" : 1564625969481,
+    "stop" : 1564626010063,
+    "duration" : 40582
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "base = <tool.base_ui.BaseUI object at 0x0000000004E415F8>\n\n    @allure.feature(\"添加商品流程\")\n    @allure.story(\"添加商品信息\")\n    def test_add(base):\n        #点击商品(//span[@slot=\"title\"])[1]\n        base.click(\"点击商品\",\"\"\"(//span[@slot=\"title\"])[1]\"\"\")\n        #点击添加商品//span[contains(text(),\"添加商品\")]\n        base.click(\"点击添加商品\",\"\"\"//span[contains(text(),\"添加商品\")]\"\"\")\n        #点击商品分类//span[@class=\"el-cascader__label\"]\n        base.click(\"点击商品分类\",\"\"\"//span[@class=\"el-cascader__label\"]\"\"\")\n        #点击服装//li[contains(text(),\"服装\")]\n        base.click(\"点击服装\",\"\"\"//li[contains(text(),\"服装\")]\"\"\")\n        #点击外套//li[contains(text(),\"外套\")]\n        base.click(\"点击外套\",\"\"\"//li[contains(text(),\"外套\")]\"\"\")\n        #添加商品名称//label[text()='商品名称：']/../div//input\n        base.send_keys(\"添加商品名称\",\"\"\"//label[text()='商品名称：']/../div//input\"\"\",\"cwfreg\")\n        #添加副标题//label[text()='副标题：']/../div//input\n        base.send_keys(\"添加副标题\",\"\"\"//label[text()='副标题：']/../div//input\"\"\",\"fewopgjrerkh\")\n        #点击选择品牌//input[@placeholder=\"请选择品牌\"]\n        base.click(\"点击选择品牌\",\"\"\"//input[@placeholder=\"请选择品牌\"]\"\"\")\n        #点击小米//span[(text()='小米')]\n        base.click(\"点击小米\",\"\"\"//span[(text()='小米')]\"\"\")\n        #请输入内容//textarea[@placeholder=\"请输入内容\"]\n        base.send_keys(\"请输入内容\",\"\"\"//textarea[@placeholder=\"请输入内容\"]\"\"\",\"红烧肉\")\n        #点击下一步，填写商品属性//span[text()=\"下一步，填写商品属性\"]\n        base.click(\"点击下一步，填写商品属性\",\"\"\"//span[text()=\"下一步，填写商品属性\"]\"\"\")\n        # #点击电脑详情页//div[text()=\"电脑端详情\"]\n        # base.click(\"点击电脑详情页\", \"\"\"//div[text()=\"电脑端详情\"]\"\"\")\n        # #切入iframe(//iframe)[1]\n        # base.switch_to_frame(\"切入iframe\",\"\"\"(//iframe)[1]\"\"\")\n        # #s输入内容//body\n        # base.send_keys(\"输入内容\",\"\"\"//body\"\"\",\"红烧肉\")\n        # #切出iframe\n        # base.switch_to_content(\"切出iframe\")\n        # 点击下一步，填写商品关联//span[text()=\"下一步，填写商品关联\"]\n>       base.click(\"点击下一步，填写商品关联\", \"\"\"//span[text()=\"下一步，填写商品关联\"]\"\"\")\n\ntest_case\\ui\\mall\\test_mall_add_product.py:83: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntool\\base_ui.py:23: in function\n    res = func(*args, **kwargs)\ntool\\base_ui.py:80: in click\n    element = self.local_element(xpath)\ntool\\base_ui.py:44: in local_element\n    return WebDriverWait(self.driver, 5, 0.5).until(EC.presence_of_element_located((By.XPATH, xpath)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"68c0b1d030c5d4888535aaf97dc91cd4\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x0000000004E41128>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nvenv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base",
+    "time" : {
+      "start" : 1564625955263,
+      "stop" : 1564625959418,
+      "duration" : 4155
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "base = <tool.base_ui.BaseUI object at 0x0000000004E415F8>\n\n    @allure.feature(\"添加商品流程\")\n    @allure.story(\"添加商品信息\")\n    def test_add(base):\n        #点击商品(//span[@slot=\"title\"])[1]\n        base.click(\"点击商品\",\"\"\"(//span[@slot=\"title\"])[1]\"\"\")\n        #点击添加商品//span[contains(text(),\"添加商品\")]\n        base.click(\"点击添加商品\",\"\"\"//span[contains(text(),\"添加商品\")]\"\"\")\n        #点击商品分类//span[@class=\"el-cascader__label\"]\n        base.click(\"点击商品分类\",\"\"\"//span[@class=\"el-cascader__label\"]\"\"\")\n        #点击服装//li[contains(text(),\"服装\")]\n        base.click(\"点击服装\",\"\"\"//li[contains(text(),\"服装\")]\"\"\")\n        #点击外套//li[contains(text(),\"外套\")]\n        base.click(\"点击外套\",\"\"\"//li[contains(text(),\"外套\")]\"\"\")\n        #添加商品名称//label[text()='商品名称：']/../div//input\n        base.send_keys(\"添加商品名称\",\"\"\"//label[text()='商品名称：']/../div//input\"\"\",\"cwfreg\")\n        #添加副标题//label[text()='副标题：']/../div//input\n        base.send_keys(\"添加副标题\",\"\"\"//label[text()='副标题：']/../div//input\"\"\",\"fewopgjrerkh\")\n        #点击选择品牌//input[@placeholder=\"请选择品牌\"]\n        base.click(\"点击选择品牌\",\"\"\"//input[@placeholder=\"请选择品牌\"]\"\"\")\n        #点击小米//span[(text()='小米')]\n        base.click(\"点击小米\",\"\"\"//span[(text()='小米')]\"\"\")\n        #请输入内容//textarea[@placeholder=\"请输入内容\"]\n        base.send_keys(\"请输入内容\",\"\"\"//textarea[@placeholder=\"请输入内容\"]\"\"\",\"红烧肉\")\n        #点击下一步，填写商品属性//span[text()=\"下一步，填写商品属性\"]\n        base.click(\"点击下一步，填写商品属性\",\"\"\"//span[text()=\"下一步，填写商品属性\"]\"\"\")\n        # #点击电脑详情页//div[text()=\"电脑端详情\"]\n        # base.click(\"点击电脑详情页\", \"\"\"//div[text()=\"电脑端详情\"]\"\"\")\n        # #切入iframe(//iframe)[1]\n        # base.switch_to_frame(\"切入iframe\",\"\"\"(//iframe)[1]\"\"\")\n        # #s输入内容//body\n        # base.send_keys(\"输入内容\",\"\"\"//body\"\"\",\"红烧肉\")\n        # #切出iframe\n        # base.switch_to_content(\"切出iframe\")\n        # 点击下一步，填写商品关联//span[text()=\"下一步，填写商品关联\"]\n>       base.click(\"点击下一步，填写商品关联\", \"\"\"//span[text()=\"下一步，填写商品关联\"]\"\"\")\n\ntest_case\\ui\\mall\\test_mall_add_product.py:83: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntool\\base_ui.py:23: in function\n    res = func(*args, **kwargs)\ntool\\base_ui.py:80: in click\n    element = self.local_element(xpath)\ntool\\base_ui.py:44: in local_element\n    return WebDriverWait(self.driver, 5, 0.5).until(EC.presence_of_element_located((By.XPATH, xpath)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"68c0b1d030c5d4888535aaf97dc91cd4\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x0000000004E41128>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nvenv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3a1b100a827cbc5",
+      "name" : "点击商品之前",
+      "source" : "e3a1b100a827cbc5.png",
+      "type" : "image/png",
+      "size" : 58821
+    }, {
+      "uid" : "a7990274c80f0452",
+      "name" : "点击商品之后",
+      "source" : "a7990274c80f0452.png",
+      "type" : "image/png",
+      "size" : 65163
+    }, {
+      "uid" : "b638f813a806414d",
+      "name" : "点击添加商品之前",
+      "source" : "b638f813a806414d.png",
+      "type" : "image/png",
+      "size" : 65163
+    }, {
+      "uid" : "4a480ee5cd17c23c",
+      "name" : "点击添加商品之后",
+      "source" : "4a480ee5cd17c23c.png",
+      "type" : "image/png",
+      "size" : 66306
+    }, {
+      "uid" : "1913511b595df147",
+      "name" : "点击商品分类之前",
+      "source" : "1913511b595df147.png",
+      "type" : "image/png",
+      "size" : 23448
+    }, {
+      "uid" : "8c283083164a8e5e",
+      "name" : "点击商品分类之后",
+      "source" : "8c283083164a8e5e.png",
+      "type" : "image/png",
+      "size" : 52307
+    }, {
+      "uid" : "b816fe78d80ec8b7",
+      "name" : "点击服装之前",
+      "source" : "b816fe78d80ec8b7.png",
+      "type" : "image/png",
+      "size" : 48980
+    }, {
+      "uid" : "b516e9bd1ad73da6",
+      "name" : "点击服装之后",
+      "source" : "b516e9bd1ad73da6.png",
+      "type" : "image/png",
+      "size" : 51530
+    }, {
+      "uid" : "fbe362dab9d03738",
+      "name" : "点击外套之前",
+      "source" : "fbe362dab9d03738.png",
+      "type" : "image/png",
+      "size" : 51530
+    }, {
+      "uid" : "a8097c7ce63fd74c",
+      "name" : "点击外套之后",
+      "source" : "a8097c7ce63fd74c.png",
+      "type" : "image/png",
+      "size" : 46083
+    }, {
+      "uid" : "dadc97fca26d1ddc",
+      "name" : "添加商品名称之前",
+      "source" : "dadc97fca26d1ddc.png",
+      "type" : "image/png",
+      "size" : 45109
+    }, {
+      "uid" : "99107b783f9d5fe5",
+      "name" : "添加商品名称之后",
+      "source" : "99107b783f9d5fe5.png",
+      "type" : "image/png",
+      "size" : 45700
+    }, {
+      "uid" : "ad49cf2669d1e796",
+      "name" : "添加副标题之前",
+      "source" : "ad49cf2669d1e796.png",
+      "type" : "image/png",
+      "size" : 45671
+    }, {
+      "uid" : "73648f7dcb8b0e9b",
+      "name" : "添加副标题之后",
+      "source" : "73648f7dcb8b0e9b.png",
+      "type" : "image/png",
+      "size" : 46742
+    }, {
+      "uid" : "f21cc97838281dc3",
+      "name" : "点击选择品牌之前",
+      "source" : "f21cc97838281dc3.png",
+      "type" : "image/png",
+      "size" : 46703
+    }, {
+      "uid" : "f98635f2a4b1cc12",
+      "name" : "点击选择品牌之后",
+      "source" : "f98635f2a4b1cc12.png",
+      "type" : "image/png",
+      "size" : 54376
+    }, {
+      "uid" : "c1f220101ca80ac",
+      "name" : "点击小米之前",
+      "source" : "c1f220101ca80ac.png",
+      "type" : "image/png",
+      "size" : 50247
+    }, {
+      "uid" : "47b571fe41a54275",
+      "name" : "点击小米之后",
+      "source" : "47b571fe41a54275.png",
+      "type" : "image/png",
+      "size" : 46526
+    }, {
+      "uid" : "7f2c54d6a28be6c5",
+      "name" : "请输入内容之前",
+      "source" : "7f2c54d6a28be6c5.png",
+      "type" : "image/png",
+      "size" : 45953
+    }, {
+      "uid" : "54603798aff969cc",
+      "name" : "请输入内容之后",
+      "source" : "54603798aff969cc.png",
+      "type" : "image/png",
+      "size" : 45367
+    }, {
+      "uid" : "fbdf5b99daa099d0",
+      "name" : "点击下一步，填写商品属性之前",
+      "source" : "fbdf5b99daa099d0.png",
+      "type" : "image/png",
+      "size" : 45342
+    }, {
+      "uid" : "ef8035e9a633a136",
+      "name" : "点击下一步，填写商品属性之后",
+      "source" : "ef8035e9a633a136.png",
+      "type" : "image/png",
+      "size" : 38166
+    }, {
+      "uid" : "383bfbbd2bebda5c",
+      "name" : "点击下一步，填写商品关联之前",
+      "source" : "383bfbbd2bebda5c.png",
+      "type" : "image/png",
+      "size" : 70017
+    }, {
+      "uid" : "c3bf7a45123af5bd",
+      "name" : "点击下一步，填写商品关联之后",
+      "source" : "c3bf7a45123af5bd.png",
+      "type" : "image/png",
+      "size" : 65165
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base::0",
+    "time" : {
+      "start" : 1564626010173,
+      "stop" : 1564626013417,
+      "duration" : 3244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加商品信息"
+  }, {
+    "name" : "feature",
+    "value" : "添加商品流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.ui.mall"
+  }, {
+    "name" : "suite",
+    "value" : "test_mall_add_product"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190301RNT"
+  }, {
+    "name" : "thread",
+    "value" : "7992-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.ui.mall.test_mall_add_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c5c9c358915692c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+---------------请求-----------------
+http://qa.yansl.com:8080/admin/delete/938
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 0
+
+None
